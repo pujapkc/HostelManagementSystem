@@ -32,7 +32,7 @@ function NewEmployee() {
         }
         else{
             let workersName = employeeName
-            axios.post("http://localhost:8000/addemployee",{workersName,phoneNo,address,cnic,designation})
+            axios.post("http://localhost:3000/addemployee",{workersName,phoneNo,address,cnic,designation})
             .then((res) => alert("Employee Added "))
         }
         clearFields();

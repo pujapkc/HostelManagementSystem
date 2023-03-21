@@ -24,7 +24,8 @@ function HostelExpense() {
        axios.post("http://localhost:8000/addexpense",{
            expense,date,price
        })
-       .then(() =>{alert("Added Successsfully!!");navigate("/home");});
+       .then(() =>{alert("Added Successsfully!!");
+       navigate("/home");});
         
        setPrice('');
        setExpense('')
