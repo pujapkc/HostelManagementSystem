@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 import './home.css'
 function Home() {
     return (
-        <div>
+        <div className='background'>
             <div className='header'>
                 <h1 className="text-center mt-2">Hostel Application System</h1>
             </div>
             
             <div className='nav-items'>
-                <Link to='/rooms' className='list'>
+                {/*<Link to='/rooms' className='list'>
                     Manage Rooms
-                </Link>
+                </Link>*/}
 
                 <Link to='/registerstudent' className='list'>
                     New Students
@@ -33,7 +33,7 @@ function Home() {
                     Hostel Expense 
                 </Link>
 
-                <Link to='/newemployee' className='list'>
+                {/*<Link to='/newemployee' className='list'>
                     New Employees 
                 </Link>
 
@@ -47,7 +47,7 @@ function Home() {
 
                 <Link to='/employeerecord' className='list'>
                     Employee Record
-                </Link>
+                </Link>*/}
             </div>
         </div>
     )

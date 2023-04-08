@@ -226,7 +226,7 @@ function UpdateStudent() {
                 />
             </div>
             <div>
-                <label>Cnic No</label>
+                <label>Registration No</label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type='text' 
                 className='input-fields'

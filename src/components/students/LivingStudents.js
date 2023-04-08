@@ -49,7 +49,7 @@ function LivingStudents() {
                 <th scope="col">Father Name</th>
                 <th scope="col">Email</th>
                 <th scope="col">Permanent Address</th>
-                <th scope="col">Cnic</th>
+                <th scope="col">Registration No</th>
                 <th scope="col">College Name</th>
                 <th scope="col">Phone No</th>
                 <th scope="col">Room No</th>

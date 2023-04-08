@@ -4,6 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import HomePage from "./components/HomePage";
 import Home from "./components/Home";
 import Rooms from './components/Rooms'
 import AddRoom from "./components/AddRoom";
@@ -24,6 +25,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element = {<Login/>}  ></Route>
+          <Route path = '/homePage' element = {<HomePage/>} />
           <Route path = '/home' element = {<Home/>} />
           <Route path = '/rooms' element = {<Rooms/>}></Route>
           <Route path = "/rooms/addroom" element = {<AddRoom/>}/>
@@ -35,10 +37,12 @@ function App() {
           <Route path='/livingstudents' element={<LivingStudents/>}/>
           <Route path='/hostelexpense' element={<HostelExpense/>}/>
           <Route path='/studentfee' element={<SudentsFee/>}/>
-          <Route path = '/newemployee' element={<NewEmployee/>}/>
+
+          {/*<Route path = '/newemployee' element={<NewEmployee/>}/>*/}
           <Route path="/updateemployee" element= {<UpdateEmployee/>}/>
           <Route path="/employeepayment" element={<EmployeePayment/>}/>
           <Route path="/employeerecord" element={<EmployeeRecord/>} / >
+
         </Routes>
       </BrowserRouter>
     </div>

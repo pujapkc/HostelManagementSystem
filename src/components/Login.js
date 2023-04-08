@@ -12,7 +12,7 @@ function Login () {
         const {userName , password} = state;
         console.log(userName,password);
         if(userName === 'admin' && password === 'admin'){
-            navigate('/home');
+            navigate('/homePage');
         }
         else{
             alert("Invalid Credentials")
